@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/v1/:path*",
+      "destination": "https://optimus2-backend-for-credit-ai-production.up.railway.app/v1/:path*"
+    }
+  ]
+}
