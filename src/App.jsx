@@ -32,7 +32,7 @@ export default function App() {
   const [error, setError]               = useState(null)
   const [companyName, setCompanyName]   = useState('')
 
-  // Access gate disabled for local development
+  if (!authenticated) return <AccessGate onLogin={login} />
 
   /**
    * Main analysis handler.
