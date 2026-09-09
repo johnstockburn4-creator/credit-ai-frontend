@@ -27,7 +27,7 @@ export default function Header({ onReset }) {
           color: 'var(--text)',
           letterSpacing: '0.01em'
         }}>
-          Optimus Credit AI
+          Credit Agent
         </span>
       </div>
       {onReset && (

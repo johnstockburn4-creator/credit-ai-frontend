@@ -101,7 +101,7 @@ function AccessGate({ onLogin }) {
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg)', padding: '2rem' }}>
       <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-lg)', padding: '2.5rem 2rem', width: '100%', maxWidth: 380, textAlign: 'center' }}>
         <div style={{ width: 48, height: 48, borderRadius: 12, background: 'var(--accent)', margin: '0 auto 1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 22 }}>📊</div>
-        <h1 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text)', marginBottom: '0.4rem' }}>Credit AI</h1>
+        <h1 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text)', marginBottom: '0.4rem' }}>Credit Agent</h1>
         <p style={{ fontSize: '0.875rem', color: 'var(--text3)', marginBottom: '2rem' }}>Enter your access code to continue</p>
         <form onSubmit={handleSubmit}>
           <input type="password" placeholder="Access code" value={code} onChange={e => { setCode(e.target.value); setError(false) }} autoFocus
